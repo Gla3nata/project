@@ -1,0 +1,358 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #445161;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header-title {
+    margin: 0 0 20px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    display: block;
+}
+
+.page-header-list {
+    padding: 0 0 0 30px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 36px;
+    list-style-type: none;
+}
+
+.page-header-list-item {
+    position: relative;
+}
+
+.page-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    left: -30px;
+    background-image: url('../img/check_icon_346.png');
+    background-size: cover;
+}
+
+.page-header-img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: #fff;
+}
+
+.about-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-product-wrp {
+    width: 651px;
+    word-wrap: break-all;
+}
+
+.about-product-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+}
+
+.about-product-txt {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.about-product-vidio {
+    display: block;
+    background-color: #445161;
+    width: 430px;
+    height: 245px;
+}
+
+.dignity {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+.dignity-title {
+    margin: 0 0 20px 0;
+}
+
+.titles {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+}
+
+.dignity-list {
+    width: 48%;
+    margin: 0;
+    padding: 0 0 0 35px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.dignity-list-item {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: -46px;
+}
+
+.screenshots {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.screenshots-title {
+    margin-bottom: 34px;
+}
+
+.screenshots-block {
+    width: 48%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*
+.screenshots-block:nth-child(4),
+.screenshots-block:nth-child(5) {
+    margin: 0px;
+}
+*/
+
+.screenshots-img {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    display: block;
+    margin: 0 20px 0 0;
+}
+
+.screenshots-text {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.screenshots-subject {
+    font-size: 24px;
+    line-height: 30px;
+    color: #445161;
+}
+
+.screenshots-desc {
+    margin: 0 0 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+     word-wrap: break-word;
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.reviews-title {
+    margin-bottom: 15px;
+}
+
+.reviews .reviews-item {
+    width: 48%;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.avatar-img {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 75%;
+    display: block;
+    margin: 20px 20px 0 0;
+}
+
+.reviews-txt {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    color: #333333;
+    width: 483px;
+    margin: 0px;
+    padding: 16px 20px 16px 27px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.signature {
+    width: 100%;
+    display: block;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+}
+
+.reviews-txt:before {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+
+.price {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.price-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+.price-item {
+    width: 28%;
+    min-height: 100px;
+    margin: 0 45px 0 0;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+    background-color: #445161;
+    border: 1px solid #445161;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.price-category,
+.price-money {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.price-category {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.price-money {
+    font-size: 40px;
+    line-height: 30px;
+    color: #445162;
+    padding: 18px;
+    margin: 0 0 18px 0;
+    background-color: #fff;
+}
+
+.price-item-list {
+    margin: 0 0 20px 20px;
+    padding: 0 0 0 20px;
+    list-style-position: inside;
+}
+
+.price-item li {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.btn {
+    display: block;
+    width: 260px;
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #445161;
+    text-decoration: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    word-break: break-all;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+btn:active {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
