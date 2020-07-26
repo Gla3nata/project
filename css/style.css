@@ -175,6 +175,7 @@ body {
 .screenshots-text {
     width: 80%;
     box-sizing: border-box;
+    
 }
 
 .screenshots-subject {
@@ -189,8 +190,19 @@ body {
     line-height: 24px;
     color: #333333;
 /*    word-wrap: break-word;*/
-    width: 349px;
+     -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     word-break: break-all;
+    
+}
+
+.desk1{
+    width: 360px;
+}
+.desk2{
+    width: 349px;
 }
 
 .reviews {
@@ -230,7 +242,7 @@ body {
     line-height: 18px;
     font-style: italic;
     color: #333333;
-    width: 483px;
+    width: 553px;
     margin: 0px;
     padding: 16px 20px 16px 27px;
     box-sizing: border-box;
