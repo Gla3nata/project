@@ -67,6 +67,8 @@ body {
 }
 
 .about-product-title {
+    display: block;
+    margin: 0 0 30px 0;
     font-size: 30px;
     line-height: 36px;
     color: #445161;
@@ -76,6 +78,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+    margin: 0 0 20px 0;
+}
+
+.about-product-txt:last-child {
+    margin: 0;
 }
 
 .about-product-vidio {
@@ -140,6 +147,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .screenshots-title {
@@ -154,13 +163,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
-
-/*
-.screenshots-block:nth-child(4),
-.screenshots-block:nth-child(5) {
-    margin: 0px;
-}
-*/
 
 .screenshots-img {
     width: 200px;
@@ -186,7 +188,9 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-     word-wrap: break-word;
+/*    word-wrap: break-word;*/
+    width: 349px;
+    word-break: break-all;
 }
 
 .reviews {
@@ -276,7 +280,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .price-item {
     width: 28%;
     min-height: 100px;
@@ -324,7 +327,11 @@ body {
 .price-item li {
     font-size: 14px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
+}
+
+.price-item:last-child {
+    margin: 0;
 }
 
 .btn {
@@ -355,4 +362,155 @@ btn:active {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+}
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    background-color: #445161;
+}
+
+.main-footer_title {
+    display: block;
+    margin: 0 0 30px 0;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.main-footer_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.main-footer_form input[type="text"],
+.main-footer_form input[type="email"],
+.main-footer_form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #445161;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+.main-footer_form textarea {
+    width: 500px;
+    height: 170px;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main-footer_form input[type="submit"] {
+    border-radius: 7px;
+    background-color: #fff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.main-footer_form input[type="text"]:hover,
+.main-footer_form input[type="email"]:hover,
+.main-footer_form textarea:hover {
+    color: black;
+    border-color: white;
+}
+
+.main-footer_form input[type="text"]:hover::placeholder,
+.main-footer_form input[type="email"]:hover::placeholder,
+.main-footer_form textarea:hover::placeholder {
+    color: white;
+}
+
+
+.main-footer-contacts {
+    width: 245px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.main-footer-contacts-link {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.main-footer-contacts-link:last-of-type {
+    margin: 0 0 37px 0;
+}
+
+.icon-skype {
+    font-size: 22px;
+}
+
+.icon-icq {
+    font-size: 26px;
+}
+
+.icon-at-1 {
+    font-size: 26px;
+}
+
+.main-footer-contacts-icons {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-footer-contacts-net {
+    display: block;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #fff;
+}
+
+.copyright {
+    width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #f5f5f5;
+    letter-spacing: 0.025em;
+    color: #445162;
+}
+
+.copy-txt {
+    margin: 0;
+}
+
+.copy-txt a {
+    text-decoration: none;
+    color: #445162;
 }
