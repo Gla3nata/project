@@ -175,7 +175,7 @@ body {
 .screenshots-text {
     width: 80%;
     box-sizing: border-box;
-    
+
 }
 
 .screenshots-subject {
@@ -189,19 +189,20 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-/*    word-wrap: break-word;*/
-     -moz-hyphens: auto;
+    /*    word-wrap: break-word;*/
+    -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
     word-break: break-all;
-    
+
 }
 
-.desk1{
+.desk1 {
     width: 360px;
 }
-.desk2{
+
+.desk2 {
     width: 349px;
 }
 
@@ -212,6 +213,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #f5f5f5;
+    padding-bottom: 30px;
 }
 
 .reviews-title {
@@ -249,7 +251,11 @@ body {
     background-color: #ebebeb;
     border-radius: 5px;
     position: relative;
-    word-wrap: break-word;
+    word-break: break-all;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .signature {
@@ -444,6 +450,22 @@ textarea[placeholder] {
     border: none;
 }
 
+.main-footer_form input[type="submit"]:hover { 
+    background-color: #fcfcfc;
+    color: #445162;
+    outline: none;
+    border: none;
+     font-weight: 900;
+}
+
+.main-footer_form input[type="submit"]:active { 
+    background-color: #62758c;
+    color: darkred;
+    outline: none;
+    border: none;
+     font-weight: 300;
+}
+
 .main-footer_form input[type="text"]:hover,
 .main-footer_form input[type="email"]:hover,
 .main-footer_form textarea:hover {
@@ -456,7 +478,6 @@ textarea[placeholder] {
 .main-footer_form textarea:hover::placeholder {
     color: white;
 }
-
 
 .main-footer-contacts {
     width: 245px;
@@ -493,20 +514,85 @@ textarea[placeholder] {
 .main-footer-contacts-icons {
     display: flex;
     justify-content: space-between;
+    width: 240px;
     box-sizing: border-box;
 }
 
+
 .main-footer-contacts-net {
     display: block;
-    width: 42px;
-    height: 42px;
-    box-sizing: border-box;
-    font-size: 40px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #fff;
+  width: 42px;
+  height: 42px;
+  background-image: url('../img/social_buttons_338.png');
 }
+
+.icon1 {
+ background-position: -1px 0;
+}
+
+ .icon2 {
+  background-position: -50px 0;
+}
+
+.icon3 {
+  background-position: -99px 0;
+}
+
+.icon4 {
+  background-position: -149px 0;
+}
+.icon5 {
+  background-position: -198px 0;
+}
+
+.icon1:hover {
+ background-color: #2d3743;
+    outline: 1px groove #445162;
+    border-radius: 50%;
+}
+
+.icon2:hover {
+ background-color: #2d3743;
+    outline: 1px groove #2d3743;
+    border-radius: 50%;
+}
+.icon3:hover {
+ background-color: #2d3743;
+    outline: 1px groove #2d3743;
+    border-radius: 50%;
+}
+.icon4:hover {
+ background-color: #2d3743;
+   outline: 1px groove #2d3743;
+    border-radius: 50%;
+}
+.icon5:hover {
+ background-color: #2d3743;
+    outline: 1px groove #2d3743;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .copyright {
     width: 100%;
